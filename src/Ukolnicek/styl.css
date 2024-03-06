@@ -1,0 +1,28 @@
+body {
+    margin: 30px 300px;
+}
+span {
+    padding: 20px;
+}
+.ukol{
+    margin-bottom: 15px;
+    border: 1px solid black;
+    display: inline-block;
+    font-Weight: bold
+    
+
+
+}
+
+.textUkolu{
+    color: blue;
+   
+}
+.splneny-ukol{
+    text-decoration: line-through;
+    color: green;
+}
+#ukoly{
+    padding-top: 40px;
+    margin: 30px 10px;
+}

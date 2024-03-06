@@ -1,0 +1,13 @@
+#tlacitka{  
+   color: black;
+   border-radius: 3px;
+   border-color: black;
+   font-size: larger;
+   margin-left: 5px;
+}
+#obraz, #seznam{
+   font-size: large;
+   color: black;
+   font-weight:400;
+}
+ 
