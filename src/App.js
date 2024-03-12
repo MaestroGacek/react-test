@@ -9,7 +9,7 @@ import Pocitadlo2 from "./Pocitadlo2";
 import Profil from "./Profil";
 import Prumer from "./Prumer/Prumer";
 import Ukolnicek from "./Ukolnicek/Ukolnicek";
-
+import Eshop from "./E-shop/Eshop";
 
 function App() {
  
@@ -28,6 +28,7 @@ function App() {
     <Route path="profil" element={<Profil></Profil>}/>
     <Route path="prumer" element={<Prumer></Prumer>}/>
     <Route path="ukolnicek" element={<Ukolnicek></Ukolnicek>}/>
+    <Route path="eshop" element={<Eshop></Eshop>}></Route>
 </Route>
    </Routes>
     </BrowserRouter>
