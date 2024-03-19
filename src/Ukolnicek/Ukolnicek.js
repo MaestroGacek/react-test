@@ -67,6 +67,7 @@ export default function Ukolnicek() {
     
     return (
         <>
+        <h1>Ukolníček</h1>
              <Typography variant="h6" gutterBottom>
             <NovyUkol pridejUkol={pridejUkol}></NovyUkol>
             <div id="ukoly">

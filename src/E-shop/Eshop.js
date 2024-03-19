@@ -24,8 +24,8 @@ function Eshop() {
           
           <Grid item xs={6} key={produkt.id}>
             {/* <Paper onClick={() => vyberKavu(kava.title)} style={{textAlign:"center"}}> */}
-            <Button color='success' variant='outlined' onClick={() => vyberProdukt(parseFloat(vybranyProduk + produkt.price))} style={{textAlign:"center"}} >Přídat: {produkt.price}</Button>
-          
+            <Button color='success' variant='outlined' onClick={() => vyberProdukt(parseFloat(vybranyProduk + produkt.price))} style={{textAlign:"center"}} >Přidat: {produkt.price}</Button>
+            <Button color='error' variant='outlined' onClick={() => vyberProdukt(parseFloat(vybranyProduk - produkt.price))} style={{textAlign:"center"}} >Odebrat: {produkt.price}</Button>
           <Typography variant='caption'>
               <img src={produkt.image} style={{ width: "250px"}}></img><br></br>
               {produkt.title}<br></br>

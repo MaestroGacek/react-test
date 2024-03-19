@@ -10,6 +10,8 @@ import Profil from "./Profil";
 import Prumer from "./Prumer/Prumer";
 import Ukolnicek from "./Ukolnicek/Ukolnicek";
 import Eshop from "./E-shop/Eshop";
+import Eshop2 from "./E-shop2/Eshop2";
+import Eshop3 from "./Eshop3";
 
 function App() {
  
@@ -29,6 +31,8 @@ function App() {
     <Route path="prumer" element={<Prumer></Prumer>}/>
     <Route path="ukolnicek" element={<Ukolnicek></Ukolnicek>}/>
     <Route path="eshop" element={<Eshop></Eshop>}></Route>
+    <Route path="eshop2" element={<Eshop2></Eshop2>}></Route>
+    <Route path="eshop3" element={<Eshop3></Eshop3>}></Route>
 </Route>
    </Routes>
     </BrowserRouter>

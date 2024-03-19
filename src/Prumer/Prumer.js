@@ -44,6 +44,7 @@ useEffect(() => {
     
     return(
         <>
+        <h1>Průměr</h1>
         <div id="obraz">Průmer:{prm}</div>
       {(prm == 1) && <span id="styl" style={{color:"green"}}></span>} 
       {(prm == 2)  && <span id="styl" style={{color:"green"}}></span> } 

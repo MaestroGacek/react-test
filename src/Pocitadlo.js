@@ -10,7 +10,7 @@ function Pocitadlo() {
 
     return (
         <>
-
+<h1>Počítadlo</h1>
             { viditelnost && 
                 <div>
                     <h2 style={{ color: "red", fontSize: pocet }}>Font size: {pocet}</h2>

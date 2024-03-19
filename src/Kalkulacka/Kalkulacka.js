@@ -33,6 +33,7 @@ function Kalkulacka (){
     }
     return(
         <>
+        <h1>Kalkulačka</h1>
         <div id="kalkulacka">
         <div id="displej">{cislo}
 

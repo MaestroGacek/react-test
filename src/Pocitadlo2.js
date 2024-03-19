@@ -9,6 +9,7 @@ function Pocitadlo2(){
     const [barva,setBarvu] = useState("black")
     return (
         <>
+        <h1>Počítadlo 2</h1>
             <Box
       sx={{
         display: 'flex',
