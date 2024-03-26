@@ -11,24 +11,24 @@ const Layout = () => {
                 <nav>
                     
                         <li style={{ listStyleType: "none" }}>
-                            <Link to="/"><MuiLink component="button" underline="none" variant="h6" color={"black"}>Home</MuiLink></Link></li>
+                            <MuiLink href="/Portfolio-react/#"  underline="none" variant="h6" color={"black"}>Home</MuiLink></li>
                         <li style={{ listStyleType: "none" }}>
-                            <Link to="/cafe"><MuiLink component="button" underline="none" variant="h6" color={"black"}>Cafe</MuiLink></Link></li>
+                            <MuiLink href="/Portfolio-react/#/cafe"  underline="none" variant="h6" color={"black"}>Cafe</MuiLink></li>
                         <li style={{ listStyleType: "none" }}>
-                            <Link to="/kalkulacka"><MuiLink component="button" underline="none" variant="h6" color={"black"}>Kalkulacka</MuiLink></Link></li>
+                         <MuiLink href="/Portfolio-react/#/kalkulacka"  underline="none" variant="h6" color={"black"}>Kalkulacka</MuiLink></li>
                         <li style={{ listStyleType: "none" }}>
-                            <Link to="/pocitadlo" ><MuiLink component="button" underline="none" variant="h6" color={"black"}>Pocitadlo</MuiLink></Link></li>
+                            <MuiLink href="/Portfolio-react/#/pocitadlo"  underline="none" variant="h6" color={"black"}>Pocitadlo</MuiLink></li>
                         <li style={{ listStyleType: "none" }}>
-                            <Link to="/pocitadlo2"><MuiLink component="button" underline="none" variant="h6" color={"black"}>Pocitadlo2</MuiLink></Link></li>
+                           <MuiLink href="/Portfolio-react/#/pocitadlo2"  underline="none" variant="h6" color={"black"}>Pocitadlo2</MuiLink></li>
 
 
                         <li style={{ listStyleType: "none" }}>
-                            <Link to="/prumer" ><MuiLink component="button" underline="none" variant="h6" color={"black"}>Prumer</MuiLink></Link></li>
+                            <MuiLink href="/Portfolio-react/#/prumer"  underline="none" variant="h6" color={"black"}>Prumer</MuiLink></li>
                         <li style={{ listStyleType: "none" }}>
-                            <Link to="/ukolnicek"><MuiLink component="button" underline="none" variant="h6" color={"black"}>Ukolnicek</MuiLink></Link></li>
-                        <li style={{ listStyleType: "none" }}><Link to="/eshop"><MuiLink component="button" underline="none" variant="h6" color={"black"}>E-shop</MuiLink></Link></li>
-                        <li style={{ listStyleType: "none" }}><Link to="/eshop2"><MuiLink component="button" underline="none" variant="h6" color={"black"}>E-shop2</MuiLink></Link></li>
-                        <li style={{ listStyleType: "none" }}><Link to="/eshop3"><MuiLink component="button" underline="none" variant="h6" color={"black"}>E-shop3</MuiLink></Link></li></nav><Outlet></Outlet>
+                          <MuiLink href="/Portfolio-react/#/ukolnicek"  underline="none" variant="h6" color={"black"}>Ukolnicek</MuiLink></li>
+                        <li style={{ listStyleType: "none" }}><MuiLink href="/Portfolio-react/#/eshop"  underline="none" variant="h6" color={"black"}>E-shop</MuiLink></li>
+                        <li style={{ listStyleType: "none" }}><MuiLink href="/Portfolio-react/#/eshop2"  underline="none" variant="h6" color={"black"}>E-shop2</MuiLink></li>
+                        <li style={{ listStyleType: "none" }}><MuiLink href="/Portfolio-react/#/eshop3" underline="none" variant="h6" color={"black"}>E-shop3</MuiLink></li></nav><Outlet></Outlet>
             </Typography>
         </>
     )
