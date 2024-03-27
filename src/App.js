@@ -14,6 +14,7 @@ import Eshop2 from "./E-shop2/Eshop2";
 import Eshop3 from "./Eshop3";
 import Barva from "./Barva/Barva"
 import { useState, useEffect } from "react";
+import Penize from "./Penize";
 
 function App() {
   const [barva, nastavBarvu] = useState(localStorage.getItem('barva'))
@@ -39,6 +40,7 @@ function App() {
             <Route path="/eshop2" element={<Eshop2></Eshop2>}></Route>
             <Route path="/eshop3" element={<Eshop3></Eshop3>}></Route>
             <Route path="/barva" element={<Barva nastavBarvu={nastavBarvu} barva={barva}></Barva>}></Route>
+            <Route path="/penize" element={<Penize></Penize>}></Route>
         </Routes>
       </HashRouter>
 
