@@ -1,8 +1,7 @@
 import { Typography } from "@mui/material";
-import { useState } from "react";
+import { useEffect } from "react";
 import Ctverec from "./Ctverec";
 export default function Barva(props) {
-    
     return (
         <>
             <Typography>Jaká je tvoje oblíbená barva</Typography>

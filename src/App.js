@@ -13,10 +13,13 @@ import Eshop from "./E-shop/Eshop";
 import Eshop2 from "./E-shop2/Eshop2";
 import Eshop3 from "./Eshop3";
 import Barva from "./Barva/Barva"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
-  const [barva, nastavBarvu] = useState('')
+  const [barva, nastavBarvu] = useState(localStorage.getItem('barva'))
+  useEffect(() => {
+    localStorage.setItem("barva",barva)
+}, [barva])
   
   return (
     <>
