@@ -19,9 +19,9 @@ export default function Vtipy (){
           {vtipy.map(vtip => (
             
             <Grid item xs={6} key={vtip.id}>
-              <Paper onClick={() => vyberVtip(vtip.type)} style={{textAlign:"center"}}>
+              <Paper onClick={() => vyberVtip(vtip.setup + (" ") + vtip.punchline)} style={{textAlign:"center"}}>
             <Typography variant='caption'>
-              {vtip.setup}<br></br>
+           {vtip.setup}<br></br>
                 {vtip.title}
                 </Typography>
               </Paper>
