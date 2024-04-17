@@ -6,14 +6,14 @@ import { useEffect, useState } from "react";
  
 function App() {
  
-  const [vybranyVtip, nastavVybranyVtip] = useState('');
+  
  
   return (
     <HashRouter basename='/'>
     <Layout vybranyVtip={vybranyVtip}/>
     <Routes>
         <Route index element={<Home/>} />
-        <Route path="/Vtipy" element={<Vtipy vybranyVtip={vybranyVtip} nastavVybranyVtip={nastavVybranyVtip}/>} />
+        <Route path="/Vtipy" element={<Vtipy/>} />
    
     </Routes>
     </HashRouter>

@@ -40,7 +40,7 @@ function Vtipy(props) {
                             <TableCell align="right">Id</TableCell>
                             <TableCell align="right">Type</TableCell>
                             <TableCell align="right">Setup</TableCell>
-                      
+
                         </TableRow>
                     </TableHead>
                     <TableBody>
@@ -51,7 +51,7 @@ function Vtipy(props) {
                                 <TableCell align="right">{vtip.id}</TableCell>
                                 <TableCell align="right">{vtip.type}</TableCell>
                                 <TableCell align="right">{vtip.setup}</TableCell>
-                               
+
                             </TableRow>
                         ))}
                     </TableBody>
