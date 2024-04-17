@@ -1,29 +1,24 @@
-import { Route, Routes, HashRouter } from "react-router-dom";
-import Home from "./Home";
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Layout from "./Layout";
-import Vtipy from "./Vtipy";
-
+import Home from "./Home";
+import Vtipy from "./Vtipy"
+import { useEffect, useState } from "react";
+ 
 function App() {
  
-    
-    return (
-      <>
-        <HashRouter basename='/'>
-        <Layout/>
-          <Routes>
-              <Route index element={<Home></Home>} />
-              <Route path="/Vtipy" element={<Vtipy></Vtipy>} />
-              
-         </Routes>
-        </HashRouter>
-  
-  
-      </>
-    )
-  
-  }
-  
-  
-  
-  
-  export default App;
+  const [vybranyVtip, nastavVybranyVtip] = useState('');
+ 
+  return (
+    <HashRouter basename='/'>
+    <Layout vybranyVtip={vybranyVtip}/>
+    <Routes>
+        <Route index element={<Home/>} />
+        <Route path="/Vtipy" element={<Vtipy vybranyVtip={vybranyVtip} nastavVybranyVtip={nastavVybranyVtip}/>} />
+   
+    </Routes>
+    </HashRouter>
+   
+  );
+}
+ 
+export default App;
